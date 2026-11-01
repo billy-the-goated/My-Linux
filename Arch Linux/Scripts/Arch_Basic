@@ -32,7 +32,7 @@ KDE_PKGS=(
 PACMAN_APPS=(
     discord
     obs-studio
-    zed
+    vscodium
     alacritty
     shotcut
     okular
