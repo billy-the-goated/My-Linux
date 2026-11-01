@@ -32,7 +32,6 @@ KDE_PKGS=(
 PACMAN_APPS=(
     discord
     obs-studio
-    vscodium
     alacritty
     shotcut
     okular
@@ -48,6 +47,7 @@ PACMAN_APPS=(
 # AUR (yay)
 AUR_APPS=(
     waterfox-bin
+    vscodium
 )
 
 # ---------- 1. system update + build tools ----------
