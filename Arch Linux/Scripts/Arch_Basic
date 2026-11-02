@@ -20,9 +20,7 @@ command -v sudo >/dev/null || { echo "sudo is required. Install and configure it
 # Official repos (pacman)
 KDE_PKGS=(
     plasma-meta          # Plasma desktop + integration pieces
-    konsole              # terminal (Plasma doesn't ship one)
     dolphin              # file manager
-    kate                 # text editor
     ark                  # archive manager
     pipewire pipewire-pulse pipewire-alsa wireplumber   # audio
     networkmanager       # needed by plasma-nm
@@ -39,7 +37,7 @@ PACMAN_APPS=(
     vlc
     mpv
     spotify-launcher
-    yazi
+    ruby
     # optional helpers for yazi previews/features
     ffmpeg 7zip jq poppler fd ripgrep fzf zoxide imagemagick
 )
@@ -47,7 +45,7 @@ PACMAN_APPS=(
 # AUR (yay)
 AUR_APPS=(
     waterfox-bin
-    vscodium
+    visual-studio-code
 )
 
 # ---------- 1. system update + build tools ----------
