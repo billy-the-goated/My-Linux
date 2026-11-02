@@ -46,6 +46,7 @@ PACMAN_APPS=(
 AUR_APPS=(
     waterfox-bin
     zed
+    visual-studio-code
 )
 
 # ---------- 1. system update + build tools ----------
