@@ -44,8 +44,9 @@ PACMAN_APPS=(
 
 # AUR (yay)
 AUR_APPS=(
-    waterfox-bin
-    zed
+#waterfox-bin
+    brave
+#zed
     visual-studio-code
 )
 
